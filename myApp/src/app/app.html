@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <ion-menu [content] = "content">
     <ion-header>
         <ion-toolbar>
@@ -14,3 +15,24 @@
     </ion-content>
 </ion-menu>
 <ion-nav [root]="rootPage"></ion-nav>
+=======
+<ion-menu [content]="content">
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Pages</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        {{p.title}}
+      </button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
+>>>>>>> 39a35c50d5996d2c3dba277f5e8161f48a1a4c4a
