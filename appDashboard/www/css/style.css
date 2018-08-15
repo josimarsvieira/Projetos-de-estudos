@@ -1,0 +1,95 @@
+/* Empty. Add your own CSS if you like */
+.pane {
+    background-color: #3b3c3e;
+}
+
+.bar {
+    background-color: #3b3c3e;
+    font-size: 20;
+}
+
+.bar .title {
+    color: #fff;
+}
+ion-content h1 {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.row {
+    padding: 0;
+}
+
+.col {
+    margin: 1px;
+    margin-bottom: 6px;
+    background-color: #525659;
+    padding: 10px;
+}
+
+.row label {
+    color: #9ca0a3;
+    font-size: 12px;
+}
+
+.row label span {
+    float: right;
+    color: #fff;
+    padding-top: 4px;
+}
+
+.row h2 {
+    margin: 0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.row h2 span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.row valores h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.title-custom {
+    color: #8c9093;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.item {
+    background: none;
+    border-color: #474747;
+}
+
+.item h2 {
+    color: #8c9093;
+}
+
+.item p {
+    color: #8c9093;
+}
+
+.right {
+    float: right;
+    color: #8c9093;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.right .valor {
+    float: left;
+    margin-right: 10px;
+}
+
+.right i {
+    font-size: 40px;
+    float: left;
+    margin-top: -10px;
+}
